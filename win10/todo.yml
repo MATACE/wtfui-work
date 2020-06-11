@@ -1,0 +1,9 @@
+items:
+    - checked: false
+      checkedicon: x
+      text: 2.Task two.
+      uncheckedicon: ' '
+    - checked: false
+      checkedicon: x
+      text: 1.Task one.
+      uncheckedicon: ' '    

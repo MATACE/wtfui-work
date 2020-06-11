@@ -1,0 +1,91 @@
+wtf:
+    colors:
+      background: black
+      border:
+        focusable: darkslateblue
+        focused: orange
+        normal: gray
+    grid:
+      columns: [40, 35, 35, 35]
+      rows: [10, 10, 10, 10]
+    refreshInterval: 150
+    mods:
+      todo:
+          checkedIcon: "X"
+          colors:
+            checked: gray
+            highlight:
+              fore: "black"
+              back: "orange"
+          enabled: true
+          filename: "todo.yml"
+          position:
+            top: 0
+            left: 0
+            height: 2
+            width: 1
+          refreshInterval: 3600
+      prettyweather:
+          enabled: true
+          city: "ChongQing"
+          position:
+            top: 1
+            left: 1
+            height: 1
+            width: 1
+          refreshInterval: 300
+          unit: "m"
+          view: 0
+          language: "en"
+      ipinfo:
+          colors:
+            name: red
+            value: white
+          enabled: true
+          position:
+            top: 2
+            left: 0
+            height: 1
+            width: 1
+          refreshInterval: 150
+      clocks:
+          colors:
+            rows:
+              even: "lightblue"
+              odd: "white"
+          enabled: true
+          locations:
+            # From https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+            Shanghai: "Asia/Shanghai"
+            Chongqing: "Asia/Chongqing"
+          position:
+            top: 0
+            left: 1
+            height: 1
+            width: 1
+          refreshInterval: 60
+          # Valid options are: alphabetical, chronological
+          sort: "alphabetical"
+    #   docker:
+    #       type: docker
+    #       enabled: true
+    #       labelColor: lightblue
+    #       position:
+    #         top: 0
+    #         left: 2
+    #         height: 1
+    #         width: 1
+    #       refreshInterval: 60
+      resourceusage:
+          cpuCombined: false
+          enabled: true
+          position:
+            top: 2
+            left: 1
+            height: 1
+            width: 1
+          refreshInterval: 1
+          graphIcon: "+"
+          showCPU: true
+          showMem: true
+          showSwp: true
