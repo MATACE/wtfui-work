@@ -84,7 +84,7 @@ wtf:
             left: 1
             height: 1
             width: 1
-          refreshInterval: 1
+          refreshInterval: 60
           graphIcon: "+"
           showCPU: true
           showMem: true
